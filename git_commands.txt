@@ -1,0 +1,34 @@
+#git commands
+#Eto
+
+git init
+git status
+git add <file> # tracks the file
+git rm --cashed <file> # removes tracked file
+.gitignore # file that git ignores
+git add -all # tracks all the files
+git rm "<file>
+git restore <file> # restore deleted file
+git log # git history
+git branch <branch> # makes no branch
+git switch <file> # switch branches 
+git merge <the branch to merge> # merge the changes within the branches
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Stagging where your files sit before committing them
+git commit # captures a snapshot of the project's currently staged changes
+git commit -m " -m means message"
+git restore --staged <file> # moves commit file back to working files
+git commit -a <file> skips over the staging step 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+git diff # shows the file and what's been been modified
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git log -p # show what changed
+git branch -d <branch> # deletes a branch
+git branch switch -c <file> # makes no branch and switch to new branch 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+git remote add origin <url> # remote connection with github 
+		
